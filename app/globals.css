@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  --line-color: #e5e7eb;
+}
+
+html.dark {
+  --line-color: rgba(255, 255, 255, 0.2);
+}
+
+.borderBlack {
+  @apply border border-black/10;
+}
+.bg-1 {
+  /* --something: 2px !important; */
+  /* inset:0; */
+  /* padding:var(--something); */
+  /* opacity:var(--something-opa); */
+  background: linear-gradient(
+      135deg,
+      #0285c7aa 5%,
+      transparent,
+      transparent,
+      transparent,
+      transparent,
+      transparent,
+      transparent
+    ),
+    linear-gradient(
+      300deg,
+      #0284c7 10%,
+      transparent,
+      transparent,
+      transparent,
+      transparent,
+      transparent
+    );
+  content: "";
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: absolute;
+  border-radius: inherit;
+  -webkit-mask: linear-gradient(black, black) content-box content-box,
+    linear-gradient(black, black);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+/* CSS */
+.blur-background {
+  backdrop-filter: blur(8px); /* Menambahkan efek blur pada latar belakang */
+  background: rgba(0, 0, 0, 0.5); /* Menambahkan latar belakang transparan */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000; /* Memastikan z-index lebih tinggi dari elemen lain */
+}
+
+/* CSS */
+.modal-overlay {
+  /* backdrop-filter: blur(1px);
+  background: rgba(0, 0, 0, 0.5); */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+/* CSS */
+.image-modal-overlay {
+  backdrop-filter: blur(8px); /* Menambahkan efek blur pada latar belakang */
+  background: rgba(0, 0, 0, 0.5); /* Menambahkan latar belakang transparan */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1500; /* Memastikan z-index lebih tinggi dari elemen lain */
+}
