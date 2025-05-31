@@ -35,7 +35,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/images/profile_2.jpg"
+              src="/images/profile_2.JPG"
               alt="Fafa Rabbani"
               width="192"
               height="192"
