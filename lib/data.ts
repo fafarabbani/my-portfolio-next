@@ -35,36 +35,28 @@ export const links = [
 ] as const;
 export const experiencesData = [
   {
-    title: "Web Programmer",
-    location: "BKAD Kabupaten Sleman",
+    title: "Programmer",
+    location: "Mutiara Indah Darussalam Foundation",
     description:
-      "Developing and overcoming user problems of Sistem Informasi Keuangan Daerah (SIKD) and Sistem Pengajuan Surat Rekening (SPSR) related to applicable policies of Sleman including, troubleshooting, disaster recovery planning & execution.",
+      "Developing and overcoming user problems of Sistem Informasi Keuangan, troubleshooting, disaster recovery planning & execution.",
     icon: React.createElement(CgWorkAlt),
     date: "Jan 2023 - Present",
   },
   {
-    title: "Software Engineer",
-    location: "PT Mandala Dwipantara Proteksi",
+    title: "Internship Web Programmer",
+    location: "Foundation Khalifatullah Fill Ardhi",
     description:
-      "Developing and overcoming user problems of NRE-CORE related to applicable policies of PT. Reasuransi Nasional Indonesia including, troubleshooting, disaster recovery planning & execution.",
+      "Developing and overcoming user problems of Sistem Informasi Akademik and Sistem Informasi Penerimaan Peserta Didik Baru related to applicable policies of Khalifatullah Fill Ardhi Foundation including, troubleshooting, disaster recovery planning & execution.",
     icon: React.createElement(CgWorkAlt),
     date: "Mar 2022 - Des 2022",
   },
   {
-    title: "Programmer with Kampus Merdeka",
-    location: "PT. Time Excelindo",
+    title: "Graphic Designer",
+    location: "PT. Sago Design Engineering",
     description:
-      "Develop features in HR TOOLS, including: fixing bugs, developing attendance with shifts and distances, applying for leave and overtime permits, and developing employee assessments",
+      "Developing various design concepts for clients to choose from and Translating ideas and concepts into visuals that are engaging and relevant to the target.",
     icon: React.createElement(CgWorkAlt),
     date: "Aug 2021 - Feb 2022",
-  },
-  {
-    title: "Internship Back End Developer",
-    location: "PT Zeniora Edukasi Teknologi",
-    description:
-      "Contribute to the development, fixing bugs, discussion about the new fiture in website.",
-    icon: React.createElement(CgWorkAlt),
-    date: "Jul 2021 - Sep 2021",
   },
 ] as const;
 
